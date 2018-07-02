@@ -6,15 +6,15 @@ var greetSpecialGuest = "specialGuest"  + "greetings";
 var topic = "space";
 var conversation = `${topic}`;
 
-it('defines `greeting`', function() {
+('defines `greeting`', function() {
   expect(greeting).toEqual("Hello, everybody!");
 });
 
-it('concatenates strings to greet a special guest in `greetSpecialGuest`',
+('concatenates strings to greet a special guest in `greetSpecialGuest`',
   function() {
   expect(greetSpecialGuest).toEqual("'Hello${specialGuest!}`")});
   
-it('interpolates a string in `conversation`', function() {
+('interpolates a string in `conversation`', function() {
   expect(conversation).toEqual(`${topic}`);
 });  
 
