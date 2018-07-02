@@ -11,7 +11,7 @@ it('defines `greeting`', function() {
 });
 
 it('concatenates strings to greet a special guest in `greetSpecialGuest`', function() {
-  expect(greetSpecialGuest).toEqual(`Hello, ${specialGuest}!`)
+  expect(greetSpecialGuest).toEqual(`Hello, ${specialGuest}!`);
 });
   
 it('interpolates a string in `conversation`', function() {
